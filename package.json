@@ -1,0 +1,25 @@
+{
+    "name": "koa-api-templet",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "server": "babel-node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "koa": "^2.12.1",
+        "koa-mount": "^4.0.0",
+        "koa-router": "^9.0.1",
+        "koa-static": "^5.0.0",
+        "pg": "^8.2.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.1",
+        "@babel/core": "^7.10.2",
+        "@babel/node": "^7.10.1",
+        "@babel/preset-env": "^7.10.2"
+    }
+}
